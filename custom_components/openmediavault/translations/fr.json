@@ -1,0 +1,43 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Configurer OpenMediaVault",
+                "description": "Configurer l'intégration OpenMediaVault.",
+                "data": {
+                    "name": "Nom de l'integration",
+                    "host": "Hôte",
+                    "username": "Nom d'utilisateur",
+                    "password": "Mot de passe",
+                    "ssl": "Utiliser SSL",
+                    "verify_ssl": "Vérifier le certificat SSL"
+                }
+            }
+        },
+        "error": {
+            "name_exists": "Le nom existe déjà.",
+            "cannot_connect": "Impossible de se connecter à OpenMediaVault.",
+            "wrong_login": "Nom d'utilisateur ou mot de passe érronés.",
+            "ssl_verify_failed": "La vérification du certificat SSL a échouée.",
+            "no_respose": "Pas de réponse de l'hôte.",
+            "400": "Mauvaise requête.",
+            "401": "Aucune autorisation pour ce point de terminaison.",
+            "404": "API non trouvée sur cet hôte.",
+            "500": "Erreur interne.",
+            "501": "Le serveur ne supporte pas cette fonctionnalité.",
+            "5001": "Délai d'expiration de la connexion OpenMediaVault."
+        }
+    },
+    "options": {
+        "step": {
+            "basic_options": {
+                "data": {
+                    "scan_interval": "Intervalle de scan",
+                    "smart_disable": "Désactiver S.M.A.R.T."
+                },
+                "title": "Options OpenMediaVault",
+                "description": "Configurer l'integration"
+            }
+        }
+    }
+}
